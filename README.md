@@ -22,6 +22,9 @@ GithubRepo - Basic Component of a Github Repo with name and link <br />
 ## Built With
 React, CSS
 
+## Deployed At
+https://githubcrawl.herokuapp.com/
+
 ## Authors
 
 * Sean Huang - https://github.com/hyprul

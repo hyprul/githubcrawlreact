@@ -9,15 +9,15 @@ For getting followers/following:
 https://developer.github.com/v3/users/followers/
 
 ## Component Structure
-Index - Setup Routes with App at top, nested routes with Search as default
-App - Basic Header and Children Components
-Search - Search Bar Component with Input and Submit
-User - Current User with Profile, Name, and Description
-Followers - List of Followers
-Following - List of Following
-Repos - List of Repos
-GithubUser - Basic Component of a Github Follower/Following User with name and profile picture
-GithubRepo - Basic Component of a Github Repo with name and link
+Index - Setup Routes with App at top, nested routes with Search as default <br /> 
+App - Basic Header and Children Components <br /> 
+Search - Search Bar Component with Input and Submit <br /> 
+User - Current User with Profile, Name, and Description <br /> 
+Followers - List of Followers <br /> 
+Following - List of Following <br /> 
+Repos - List of Repos <br /> 
+GithubUser - Basic Component of a Github Follower/Following User with name and profile picture <br /> 
+GithubRepo - Basic Component of a Github Repo with name and link <br /> 
 
 ## Built With
 React, CSS

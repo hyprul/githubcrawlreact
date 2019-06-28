@@ -5,7 +5,7 @@ This is a GitHub Crawler that allows the end user to search for any public user 
 ## GitHub API Documentation
 https://developer.github.com/v3/
 
-For getting followers/following:
+For getting followers/following:<br /> 
 https://developer.github.com/v3/users/followers/
 
 ## Component Structure

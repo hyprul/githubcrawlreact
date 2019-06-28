@@ -8,7 +8,7 @@ https://developer.github.com/v3/
 For getting followers/following:
 https://developer.github.com/v3/users/followers/
 
-#Component Structure
+## Component Structure
 Index - Setup Routes with App at top, nested routes with Search as default
 App - Basic Header and Children Components
 Search - Search Bar Component with Input and Submit

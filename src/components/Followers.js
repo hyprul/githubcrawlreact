@@ -18,10 +18,8 @@ class Followers extends React.Component {
         this.setState({
             loading: true
         })
-
-    	var part1 = "https:/"
-    	var part2 = `/api.github.com/users/${this.props.params.username}/followers?&page=1&per_page=50`
-    	var url = part1 + part2
+        
+    	let url = `https://api.github.com/users/${this.props.params.username}/followers?&page=1&per_page=50`
 
         fetch(url)
         .then(response => response.json())

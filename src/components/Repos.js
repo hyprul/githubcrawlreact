@@ -11,9 +11,8 @@ class Repos extends React.Component {
     }
 
     componentDidMount() {
-        var part1 = "https:/"
-        var part2 = `/api.github.com/users/${this.props.params.username}/repos`
-        var url = part1 + part2
+
+        let url = `https://api.github.com/users/${this.props.params.username}/repos`
 
         fetch(url)
         .then(response => response.json())

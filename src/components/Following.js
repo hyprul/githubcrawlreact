@@ -18,9 +18,7 @@ class Following extends React.Component {
             loading: true
         })
 
-    	var part1 = "https:/"
-    	var part2 = `/api.github.com/users/${this.props.params.username}/following?&page=1&per_page=50`
-    	var url = part1 + part2
+    	let url = `https://api.github.com/users/${this.props.params.username}/following?&page=1&per_page=50`
 
         fetch(url)
         .then(response => response.json())

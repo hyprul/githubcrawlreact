@@ -26,7 +26,7 @@ class Repos extends React.Component {
 
     render() {
 
-        var reposArray = this.state.repos;
+        let reposArray = this.state.repos;
 
         if (!this.state.repos) {
             return <div>LOADING REPOS...</div>

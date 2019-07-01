@@ -4,7 +4,7 @@ class GithubRepo extends React.Component {
 
     render() {
 
-        var fullname = this.props.full_name;
+        let fullname = this.props.full_name;
 
         return (
             <div>

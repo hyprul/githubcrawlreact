@@ -8,9 +8,8 @@ class User extends React.Component {
     }
 
     _fetchData() {
-        var part1 = "https:/"
-        var part2 = `/api.github.com/users/${this.props.params.username}`
-        var url = part1 + part2
+        
+        let url = `https://api.github.com/users/${this.props.params.username}`
 
         fetch(url)
         .then(response => response.json())
